@@ -1,0 +1,19 @@
+{
+  "_comment": "Manual overrides for icon-mapping.json. Keys are the icon numeric IDs (as strings).",
+  "_doc": "Add entries here to correct or enrich auto-generated mappings without editing the generator script.",
+  "overrides": {
+    "10021": {
+      "azure_resource_type": "Microsoft.Compute/virtualMachines",
+      "terraform_resource_types": [
+        "azurerm_linux_virtual_machine",
+        "azurerm_windows_virtual_machine"
+      ],
+      "tags": ["vm", "compute", "iaas"]
+    },
+    "10061": {
+      "azure_resource_type": "Microsoft.Network/virtualNetworks",
+      "terraform_resource_types": ["azurerm_virtual_network"],
+      "tags": ["vnet", "networking"]
+    }
+  }
+}

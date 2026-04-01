@@ -1,0 +1,9 @@
+# Icônes — non committées, hébergées dans un repo GitHub public séparé
+# Dépendances Node
+scripts/node_modules/
+scripts/package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

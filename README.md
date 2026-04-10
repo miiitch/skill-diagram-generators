@@ -1,5 +1,7 @@
 # skill-diagram-generators
 
+![D2 Diagram Example](docs/readmeimg.png)
+
 This repository contains a **VS Code GitHub Copilot skill** for generating D2 architecture diagrams from Terraform/Terragrunt infrastructure, along with the Azure icon assets it depends on.
 
 ## Repository Contents

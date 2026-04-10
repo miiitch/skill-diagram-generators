@@ -1,5 +1,4 @@
-# Icônes — non committées, hébergées dans un repo GitHub public séparé
-# Dépendances Node
+# Dependencies
 scripts/node_modules/
 scripts/package-lock.json
 
@@ -7,3 +6,13 @@ scripts/package-lock.json
 __pycache__/
 *.pyc
 *.pyo
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

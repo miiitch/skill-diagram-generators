@@ -1,0 +1,22 @@
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text eol=lf
+
+# JSON (should always be LF)
+*.json text eol=lf
+
+# Markdown
+*.md text eol=lf
+
+# YAML
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Python
+*.py text eol=lf
+
+# Shell
+*.sh text eol=lf

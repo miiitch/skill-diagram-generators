@@ -1,0 +1,10 @@
+# This file establishes ownership and review requirements for this repository
+
+# Default
+* @miiitch
+
+# Skill definition
+/d2-diagram/ @miiitch
+
+# Icon mappings
+icon-*.json @miiitch

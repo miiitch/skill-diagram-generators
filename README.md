@@ -8,8 +8,7 @@ This repository contains a **VS Code GitHub Copilot skill** for generating D2 ar
 
 | Path | Description |
 |------|-------------|
-| `d2-diagram/SKILL.md` | Main skill definition — D2 language reference, workflow, mandatory questionnaire, icon resolution, sub-resource registry |
-| `d2-diagram/internet-exposure-detection.md` | Companion reference for detecting internet-exposed Azure resources (linked from SKILL.md) |
+| `d2-diagram/` | Copilot skill for generating D2 architecture diagrams from Terraform/Terragrunt infrastructure |
 | `icon-index-terraform-png.json` | Mapping of ~600+ Terraform resource types (`azurerm_*`, `azuread_*`) to PNG icon paths |
 | `icon-index-terraform-svg.json` | Same mapping but for SVG icons |
 | `icon-index-bicep-png.json` | Mapping of ARM/Bicep resource types (`Microsoft.*`) to PNG icon paths |
@@ -20,13 +19,7 @@ This repository contains a **VS Code GitHub Copilot skill** for generating D2 ar
 
 ## Installing the Skill in Your Own Repo
 
-The skill is composed of **two files** that must stay together:
-
-```
-d2-diagram/
-  SKILL.md
-  internet-exposure-detection.md
-```
+Copy the entire `d2-diagram/` folder (including its `references/` subfolder) to one of the supported skill locations.
 
 ### Option 1 — Per-repository (recommended)
 
@@ -38,8 +31,6 @@ Copy the `d2-diagram/` folder into your repo under `.github/copilot/skills/`:
     copilot/
       skills/
         d2-diagram/
-          SKILL.md
-          internet-exposure-detection.md
 ```
 
 The skill will be available to anyone working in that repository.
